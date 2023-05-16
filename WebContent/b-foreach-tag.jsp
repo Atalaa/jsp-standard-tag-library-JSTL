@@ -1,4 +1,4 @@
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core " prefix="c" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %> <!-- c for Core -->
 
 <%
 	String[] cities = {"Montreal", "New-York", "Sydney"};
@@ -9,7 +9,7 @@
 <body>
 
 	<c:forEach var="city" items="${myCities}">
-	${city} <br/>
+		${city} <br/>
 	</c:forEach>
 
 </body>
